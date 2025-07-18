@@ -1,0 +1,88 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+/* index.html */
+.d1{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    background-color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.p1{
+    color: white;
+    background-color: green;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.button{
+    background-color: orange;
+    font-size: 18px;
+    padding: 15px;
+    margin-left: 10px;
+}
+/* classIdSelector */
+.num1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: pink;
+    margin-left: 10px;
+    font-size: 24px;
+
+}
+#num2{
+    color: blue;
+    font-size: 36px;
+    margin: 10px;
+}
+.num3{
+    font-size: 24px;
+    background-color: pink;
+    margin: 10px;
+}
+#num4{
+    font-weight: bold;
+    font-size: 24px;
+    background-color: lightgreen;
+    margin: 10px;
+}
+.num5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: pink;
+    margin-left: 10px;
+    font-size: 24px;
+}
+/* grouping selectors */
+.button1,.button2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+} 
+.button1{
+    background-color: black;
+    color: white;
+}
+.button2{
+    background-color: yellow;
+}
+
+/* chaining selectors */
+.avatar.proportioned {
+  height: auto;
+  width: 300px;
+}
+
+.avatar.distorted {
+  height: 400px;
+  width: 200px;
+}
+/* descendant selectors */
+.container .text {
+  background-color: yellow;
+  color: #E00000;
+  font-size: 20px;
+  text-align: center;
+}
