@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    text-align: center;
+}
